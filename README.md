@@ -5,8 +5,12 @@ There are 4 versions of the Orange Pi Zero 3: **1GB, 1.5GB, 2GB & 4GB**.
 
 The **1.5GB** is the odd one out. As it appears to have a 2GB chip layout but without all banks filled actually populated. It appears that OrangePi have not found a way to detect this in runtime in the bootloader so it ends up with a different bootloader. To make this simple, I've just made builds for both, even though the only difference is the bootloader.
 
+---
 **If you have a 1GB, 2GB or 4GB model use the regular build**.
+
 **If you have the 1.5GB model use the 1.5GB build**
+
+---
 
 To build this from scratch you must first compile orangepi's fork of armbian. There is a guide on how to do this in the manual, which you can get here: http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/service-and-support/Orange-Pi-Zero-3.html. **MINIMAL BUILD DOES NOT WORK FOR MAINSAIL!**
 
